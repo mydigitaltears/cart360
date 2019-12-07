@@ -25,7 +25,7 @@ void loop() {
     }
   }
   if(heaterState){
-    analogWrite(MOSFET, 128);
+    analogWrite(MOSFET, 255);
   }
   else if(!heaterState){
     analogWrite(MOSFET, 0);
